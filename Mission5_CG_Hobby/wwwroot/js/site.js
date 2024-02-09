@@ -4,10 +4,10 @@
 // Write your JavaScript code.
 
 
-$('#btnClick').on('click', function () {
-    let hours = parseFloat($('#hours').val());
-    let rate = parseFloat($('#rate').val());
-    let result = hours * rate;
+$("#btnClick").on('click', function () {
+    var hours = parseFloat($("#hours").val());
+    var rate = parseFloat($("#rate").val());
+    var result = hours * rate;
 
-    $('#result').val(result.toFixed(2));
+    $("#result").val(result.toFixed(2));
 });
