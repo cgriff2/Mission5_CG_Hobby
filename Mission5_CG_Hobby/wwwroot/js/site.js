@@ -3,10 +3,11 @@
 
 // Write your JavaScript code.
 
-function runCalc() {
-    let hours = parseFloat(document.getElementbyId(hours).value);
-    let rate = parseFloat(document.getElementbyId(rate).value);
+
+$(#btnClick).click(function () {
+    let hours = parseFloat($(hours).val());
+    let rate = parseFloat($(rate).val());
     let result = hours * rate;
 
-    document.getElementById(result).value = result;
-}
+    $(result).value = result;
+})
