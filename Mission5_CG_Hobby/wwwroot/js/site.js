@@ -4,7 +4,7 @@
 // Write your JavaScript code.
 
 
-$(#btnClick).click(function () {
+$('#btnClick').click(function () {
     let hours = parseFloat($('#hours').val());
     let rate = parseFloat($('#rate').val());
     let result = hours * rate;
