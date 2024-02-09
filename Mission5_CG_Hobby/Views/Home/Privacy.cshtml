@@ -9,12 +9,12 @@
 
 <form>
     <label for="hours">Number of hours: </label>
-    <input type="number" id="hours"/>
+    <input type="number" id="hours" autofocus/>
     <br />
     <label for="rate">My Hourly Rate: </label>
-    <input type="text" id="rate" readonly value="100" style="background-color: gainsboro"/>
+    <input type="text" id="rate" readonly value="100" style="background-color: gainsboro; outline: none;" />
     <br />
     <input type="button" id="btnClick" value="Calculate"/>
     <br />
-    <input id="result" type="text" readonly>
+    <input id="result" type="text" readonly style="outline: none;">
 </form>
