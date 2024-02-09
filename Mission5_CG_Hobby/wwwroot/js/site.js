@@ -5,9 +5,9 @@
 
 
 $(#btnClick).click(function () {
-    let hours = parseFloat($(hours).val());
-    let rate = parseFloat($(rate).val());
+    let hours = parseFloat($('#hours').val());
+    let rate = parseFloat($('#rate').val());
     let result = hours * rate;
 
-    $(result).val() = result;
+    $('#result').val(result.toFixed(2));
 })
