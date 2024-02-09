@@ -10,4 +10,5 @@ $("#btnClick").on('click', function () {
     var result = hours * rate;
 
     $("#result").val(result);
+    $("#result").style.width = ($("#result").value.length * 8) + 'px';
 });
